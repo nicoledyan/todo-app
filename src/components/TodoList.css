@@ -1,0 +1,92 @@
+/* General container styling */
+.todo-container {
+    background-color: #f6e8fc;  /* Light purple background */
+    padding: 20px;
+    width: 100%;
+    max-width: 600px !important;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styling */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+/* Task input styling */
+.todo-input {
+    margin-bottom: 10px;
+}
+
+/* Due date section styling */
+.due-date-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Add task button styling */
+.add-button {
+    width: auto;
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: #7f56d9; /* Purple */
+    color: white;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    align-self: center;
+}
+
+.add-button:hover {
+    background-color: #5f3d99;
+}
+
+/* Styling for completed tasks */
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+/* List styling */
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.todo-item {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.todo-item-text {
+    flex-grow: 1;
+    word-wrap: break-word;
+}
+
+/* Button and icon adjustments */
+.todo-item-button {
+    margin-left: 10px;
+}
+
+/* Due date section input alignment */
+.due-date-input {
+    width: 200px;
+}
+
+/* Hide the due date input initially */
+.due-date-hidden {
+    display: none;
+}
+
+/* Show the due date input only when checkbox is checked */
+.due-date-visible {
+    display: block;
+}
